@@ -2132,7 +2132,6 @@ section {
 .program__item {
     background: #191919;
     border-radius: 4rem;
-    margin-bottom: 10rem;
 }
 
 .item__content-flex img {
@@ -2145,6 +2144,7 @@ section {
         padding-bottom: 3rem;
         text-align: center;
         transition: 320ms;
+        margin-bottom: 30px;
     }
 }
 
@@ -2161,6 +2161,7 @@ section {
 @media screen and (max-width: 575px) {
     .program__item.hidden {
         display: block;
+        margin-bottom: 10px;
     }
 }
 
@@ -2301,6 +2302,7 @@ section {
 @media screen and (min-width: 575px) {
     .program__item .item__header {
         background: #191919;
+        margin-bottom: 20px;
     }
 }
 
